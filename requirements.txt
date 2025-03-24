@@ -1,0 +1,6 @@
+telebot==0.0.5
+paramiko==2.7.2
+fabric==2.6.0
+logging==0.5.1.2
+cryptography==38.0.1
+schedule==1.2.2

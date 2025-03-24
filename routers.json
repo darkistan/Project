@@ -1,0 +1,22 @@
+
+  {
+    "ROUTER1": {
+      "ip": "192.168.1.1",
+      "username": "admin",
+      "ssh_password": "password123",
+      "script_password": "123",
+      "ssh_port": 22,
+      "scripts": ["ON", "OFF"],
+      "allowed_users": ["440127888", "987654321"]
+    },
+    "ROUTER2": {
+      "ip": "192.168.1.1",
+      "username": "admin",
+      "ssh_password": "password123",
+      "script_password": "123",
+      "ssh_port": 22,
+      "scripts": ["sh", "telega"],
+      "allowed_users": ["440127888", "987654321"]
+    }
+  }
+  
