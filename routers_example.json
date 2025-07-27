@@ -1,0 +1,22 @@
+{
+  "ROUTER1": {
+    "ip": "192.168.1.1",
+    "username": "admin",
+    "ssh_password": "your_ssh_password_here",
+    "script_password": "your_script_password_here",
+    "ssh_port": 22,
+    "scripts": ["script1", "script2", "backup"],
+    "allowed_users": ["123456789", "987654321"],
+    "description": "Основний маршрутизатор офісу"
+  },
+  "ROUTER2": {
+    "ip": "192.168.1.2",
+    "username": "admin",
+    "ssh_password": "your_ssh_password_here",
+    "script_password": "your_script_password_here",
+    "ssh_port": 2222,
+    "scripts": ["restart", "status", "update"],
+    "allowed_users": ["123456789"],
+    "description": "Резервний маршрутизатор"
+  }
+}
